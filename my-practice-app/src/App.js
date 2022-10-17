@@ -5,6 +5,7 @@ import User from "./component/User.jsx";
 import Cart from "./component/cart.jsx";
 import { Provider } from "react-redux";
 function App() {
+  console.log(1);
   return (
     <BrowserRouter>
       <Routes>
